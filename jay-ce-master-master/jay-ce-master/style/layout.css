@@ -1,8 +1,10 @@
 main {
+  overflow-x: hidden;
+
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  overflow-x: hidden;
+
   font-family: 'Manrope-SemiBold', sans-serif;
 
 }
@@ -10,6 +12,7 @@ main {
 .all {
   display: flex;
   flex-direction: column;
+
   align-items: center;
 }
 
@@ -18,9 +21,10 @@ a {
 }
 
 h6 {
+  margin-bottom: 30px;
+
   font-family: 'Manrope-ExtraBold', sans-serif;
   font-size: 16px;
-  margin-bottom: 30px;
 }
 
 h5 {
@@ -28,98 +32,119 @@ h5 {
 }
 
 h2 {
-  font-size: 44px;
   width: 507px;
   margin-bottom: 40px;
+
+  font-size: 44px;
 }
 
 p {
-  font-size: 24px;
   width: 486px;
+
+  font-size: 24px;
 }
 
 .firstScreen {
   display: flex;
   flex-direction: column;
+
   justify-content: center;
 }
 
 .firstScreenText {
   display: flex;
   flex-direction: column;
+
   justify-content: center;
 }
 
- h1 {
-   margin: 80px 0 50px;
-   font-size: 55px;
-   line-height: 120%;
-   text-align: center;
- }
+h1 {
+ margin: 80px 0 50px;
+
+ text-align: center;
+
+ color: #FF4E4E;
+
+ font-family: 'Manrope-Bold', sans-serif;
+ font-size: 55px;
+ line-height: 120%;
+}
 
  .firstScreenText p {
+   width: 100%;
+   margin: 0 0 58px 0;
+
+   text-align: center;
 
    font-size: 24px;
    line-height: 130%;
-   text-align: center;
-   margin: 0 0 58px 0;
-   width: 100%;
 
  }
 
 .firstButtons {
   display: flex;
   flex-direction: row;
+
   justify-content: center;
 
 }
 
 .firstButtons a, .forGuideText a, .parisText a {
   display: inline-block;
+
   padding: 25px 30px;
-  font-family: 'Manrope-Regular', sans-serif;
-  font-size: 18px;
 
 text-align: center;
+
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 18px;
 }
 
 .guideButton {
   display: inline-block;
-  font-family: 'Manrope-Regular', sans-serif;
-  font-size: 18px;
 
-text-align: center;
-background-color: #FFFFFF;
-border-radius: 38px;
-color: #FF4E4E;
 width: 214px;
 padding: 25px 30px;
+
+text-align: center;
+
+color: #FF4E4E;
+border-radius: 38px;
+background-color: #FFFFFF;
+
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 18px;
 
 }
 
 .firstButtons a:first-child, .parisText a {
-  font-family: 'Manrope-Bold', sans-serif;
-  background-color: #FF4E4E;
-  border-radius: 38px;
   color: #FFFFFF;
+  border-radius: 38px;
+  background-color: #FF4E4E;
+
+  font-family: 'Manrope-Bold', sans-serif;
 
 }
 
 .forGuide {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+  width: 100%;
   margin-top: 140px;
   padding: 110px 0 90px 0;
-  width: 100%;
+
   background-color: #7DC1C6;
+
+  align-items: center;
 }
 
 .forGuideText a {
-  background-color: #FFFFFF;
-  border-radius: 38px;
-  color: #FF4E4E;
   width: 214px;
+
+  color: #FF4E4E;
+  border-radius: 38px;
+  background-color: #FFFFFF;
 }
 
 .forGuideText p {
@@ -129,6 +154,7 @@ margin-bottom: 35px;
 .forTourists, .paris {
   display: flex;
   flex-direction: row;
+
   width: 1300px;
 
 }
@@ -143,32 +169,39 @@ margin-left: 230px;
 }
 
 .forTouristsImg1 {
-  height: 318px;
-  width: 318px;
-  margin-left: -180px;
-  margin-top: -24px;
   z-index: -10;
+
+  width: 318px;
+  height: 318px;
+  margin-top: -24px;
+  margin-left: -180px;
 }
 
 
 .Menu {
-  background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   padding: 50px 90px;
+
+  background-color: #FFFFFF;
+
   font-size: 18px;
+
+  justify-content: space-between;
 }
 
 .Logo {
   display: flex;
-  height: 38px;
+
   width: 78px;
+  height: 38px;
 }
 
 .menu_Text ul {
   display: flex;
   flex-direction: row;
+
   justify-content: space-around;
 
 }
@@ -180,8 +213,8 @@ margin-left: 230px;
 .mainCard {
   display: flex;
   flex-direction: column;
-  width: 1300px;
 
+  width: 1300px;
   margin-top: 90px;
   margin-bottom: 120px;
 }
@@ -189,8 +222,9 @@ margin-left: 230px;
 .cardPoint1 {
   display: flex;
 
-  justify-content: space-between;
   width: 1300px;
+
+  justify-content: space-between;
 
 }
 
@@ -200,12 +234,12 @@ margin-left: 230px;
 
 .mainCard h3 {
   width: 538px;
+  margin-bottom: 32px;
 
   color: #0B004C;
 
   font-family: 'Manrope-Bold', sans-serif;
   font-size: 36px;
-  margin-bottom: 32px;
 }
 
 .mainCard h5 {
@@ -302,11 +336,12 @@ margin-left: 230px;
 
 
 .cardPoint {
-
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   width: 1300px;
+
+  justify-content: space-between;
 
 }
 
@@ -318,6 +353,7 @@ margin-left: 230px;
 .mostPopular{
   display: flex;
   flex-direction: column;
+
   width: 1300px;
   margin-top: 130px;
 
@@ -331,11 +367,12 @@ margin-left: 230px;
 .mostPopular h3 {
   display: flex;
 
+  margin-bottom: 25px;
+
   color: #0B004C;
 
   font-family: 'Manrope-Bold', sans-serif;
   font-size: 36px;
-  margin-bottom: 25px;
 }
 
 .cardPoint h5 {
@@ -351,6 +388,7 @@ margin-left: 230px;
 .cardPoint p {
   width: 285px;
   margin-top: 11px;
+
   color: #6D6694;
 
   font-family: 'Manrope-Bold', sans-serif;
@@ -360,6 +398,7 @@ margin-left: 230px;
 .forGuideText {
   display: flex;
   flex-direction: column;
+
   justify-content: center;
 }
 
@@ -374,15 +413,17 @@ margin-left: 230px;
 
 
 .end {
-  height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-top: 150px;
+
   width: 100%;
-  align-items: center;
+  height: 600px;
+  margin-top: 150px;
 
   background-color: #FF4E4E;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .end p {
@@ -391,6 +432,7 @@ margin-left: 230px;
 
 .end h1 {
   color: #FFFFFF;
+
   font-family: 'Manrope-Bold', sans-serif;
   font-size: 55px;
   line-height: 128%
@@ -398,22 +440,24 @@ margin-left: 230px;
 
 .end a {
   display: inline-block;
+
   padding: 25px 30px;
-  font-family: 'Manrope-Regular', sans-serif;
-  font-size: 18px;
+
   text-align: center;
-  border-radius: 50px;
 
   color: #FF4E4E;
+  border-radius: 50px;
   background: #FFFFFF;
 
+  font-family: 'Manrope-Regular', sans-serif;
   font-family: 'Manrope-Bold', sans-serif;
+  font-size: 18px;
 }
 
 .about {
   display: flex;
-  width: 1300px;
 
+  width: 1300px;
   margin-top: 130px;
 
   justify-content: space-between;
@@ -424,6 +468,7 @@ margin-left: 230px;
   display: flex;
 
   padding: (0, 3vw, 3vw, 0px);
+
   justify-content: space-between;
 }
 
