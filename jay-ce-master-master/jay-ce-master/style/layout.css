@@ -1,0 +1,452 @@
+main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: 'Manrope-SemiBold', sans-serif;
+
+}
+
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h6 {
+  font-family: 'Manrope-ExtraBold', sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 44px;
+  width: 507px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 24px;
+  width: 486px;
+}
+
+.firstScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.firstScreenText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ h1 {
+   margin: 80px 0 50px;
+   font-size: 55px;
+   line-height: 120%;
+   text-align: center;
+ }
+
+ .firstScreenText p {
+
+   font-size: 24px;
+   line-height: 130%;
+   text-align: center;
+   margin: 0 0 58px 0;
+   width: 100%;
+
+ }
+
+.firstButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.firstButtons a, .forGuideText a, .parisText a {
+  display: inline-block;
+  padding: 25px 30px;
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 18px;
+
+text-align: center;
+}
+
+.guideButton {
+  display: inline-block;
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 18px;
+
+text-align: center;
+background-color: #FFFFFF;
+border-radius: 38px;
+color: #FF4E4E;
+width: 214px;
+padding: 25px 30px;
+
+}
+
+.firstButtons a:first-child, .parisText a {
+  font-family: 'Manrope-Bold', sans-serif;
+  background-color: #FF4E4E;
+  border-radius: 38px;
+  color: #FFFFFF;
+
+}
+
+.forGuide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 140px;
+  padding: 110px 0 90px 0;
+  width: 100%;
+  background-color: #7DC1C6;
+}
+
+.forGuideText a {
+  background-color: #FFFFFF;
+  border-radius: 38px;
+  color: #FF4E4E;
+  width: 214px;
+}
+
+.forGuideText p {
+margin-bottom: 35px;
+}
+
+.forTourists, .paris {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+
+}
+
+.parisText {
+  margin-top: 250px;
+  margin-left: 110px;
+}
+
+.forTouristsImg {
+margin-left: 230px;
+}
+
+.forTouristsImg1 {
+  height: 318px;
+  width: 318px;
+  margin-left: -180px;
+  margin-top: -24px;
+  z-index: -10;
+}
+
+
+.Menu {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 90px;
+  font-size: 18px;
+}
+
+.Logo {
+  display: flex;
+  height: 38px;
+  width: 78px;
+}
+
+.menu_Text ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.menu_Text ul li {
+  padding: 0 0 0 90px;
+}
+
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
+
+.cardPoint1 {
+  display: flex;
+
+  justify-content: space-between;
+  width: 1300px;
+
+}
+
+.cardImg {
+  width: 390px;
+}
+
+.mainCard h3 {
+  width: 538px;
+
+  color: #0B004C;
+
+  font-family: 'Manrope-Bold', sans-serif;
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.mainCard h5 {
+  width: 400px;
+  margin-top: 26px;
+
+  color: #0B004C;
+
+  font-family: 'Manrope-Bold', sans-serif;
+  font-size: 28px;
+}
+
+.mainCard p {
+  width: 390px;
+  margin-top: 19px;
+
+  color: #6D6694;
+
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.card1 {
+
+}
+
+.raiting {
+  width: 54px;
+  margin-top: 10px;
+  margin-bottom: 43px;
+}
+
+
+/* .map h2 {
+  width: 507px;
+  margin-top: -33vw;
+  margin-left: 60vw;
+
+  color: #0B004C;
+
+  font-family: 'Manrope-Bold', sans-serif;
+  font-size: 44px;
+  line-height: 133%;
+} */
+
+/* .mapText p {
+  width: 486px;
+  margin-top: 35px;
+  margin-left: 1013px;
+
+  color: #0B004C;
+
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 24px;
+  line-height: 126%;
+} */
+
+.mapImg {
+  width: 707px;
+}
+
+/* .map a {
+  display: inline-block;
+
+  height: 3.4vw;
+  margin-top: 34px;
+  margin-left: 1013px;
+  padding: 0vw 2vw;
+
+  text-decoration: none;
+
+  color: white;
+  border-radius: 2vw;
+  background: #FF4E4E;
+
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 1vw;
+  line-height: 3.3vw;
+}
+
+.mapText h6 {
+  position: absolute;
+
+  margin-top: -35vw;
+  margin-left: 1013px;
+
+  color: #FF4E4E;
+
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 16px;
+
+} */
+
+
+.cardPoint {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1300px;
+
+}
+
+.card {
+  /* margin: 0 auto; */
+  width: 285px;
+}
+
+.mostPopular{
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  margin-top: 130px;
+
+
+}
+
+.card img {
+  width: 285px;
+}
+
+.mostPopular h3 {
+  display: flex;
+
+  color: #0B004C;
+
+  font-family: 'Manrope-Bold', sans-serif;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.cardPoint h5 {
+  width: 343px;
+  margin-top: 6px;
+
+  color: #0B004C;
+
+  font-family: 'Manrope-Bold', sans-serif;
+  font-size: 24px;
+}
+
+.cardPoint p {
+  width: 285px;
+  margin-top: 11px;
+  color: #6D6694;
+
+  font-family: 'Manrope-Bold', sans-serif;
+  font-size: 12px;
+}
+
+.forGuideText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.forGuideText p, .forGuideText h2 {
+  text-align: center;
+}
+
+.parisText p {
+  margin-bottom: 40px;
+}
+
+
+
+.end {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+  width: 100%;
+  align-items: center;
+
+  background-color: #FF4E4E;
+}
+
+.end p {
+  width: auto;
+}
+
+.end h1 {
+  color: #FFFFFF;
+  font-family: 'Manrope-Bold', sans-serif;
+  font-size: 55px;
+  line-height: 128%
+}
+
+.end a {
+  display: inline-block;
+  padding: 25px 30px;
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 50px;
+
+  color: #FF4E4E;
+  background: #FFFFFF;
+
+  font-family: 'Manrope-Bold', sans-serif;
+}
+
+.about {
+  display: flex;
+  width: 1300px;
+
+  margin-top: 130px;
+
+  justify-content: space-between;
+  align-items: left;
+}
+
+.testInformation {
+  display: flex;
+
+  padding: (0, 3vw, 3vw, 0px);
+  justify-content: space-between;
+}
+
+.testInformation  p {
+  padding-left: 30px;
+
+  color: #FFFFFF;
+
+  font-family: 'Manrope-Regular', sans-serif;
+  font-size: 16px;
+}
+
+.imageLogo img {
+  width: 78px;
+}
+
+
+
+
+@font-face {
+font-family: "Manrope-Bold", "Manrope-ExtraBold"
+src: url("../fonts/Manrope-Bold.ttf") format("truetype");
+font-family: "PragatiNarrow-Regular",
+src: url("../fonts/PragatiNarrow-Regular.ttf") format("truetype");
+
+}
