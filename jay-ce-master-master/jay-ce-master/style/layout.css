@@ -18,10 +18,14 @@ main {
 
 a {
   text-decoration: none;
+
+  font-family: 'Manrope-Regular', sans-serif
 }
 
 h6 {
   margin-bottom: 30px;
+
+  color: #0B004C;
 
   font-family: 'Manrope-ExtraBold', sans-serif;
   font-size: 16px;
@@ -35,13 +39,20 @@ h2 {
   width: 507px;
   margin-bottom: 40px;
 
+  color: #0B004C;
+
+  font-family: 'Manrope-Bold', sans-serif;
   font-size: 44px;
 }
 
 p {
   width: 486px;
 
+  color: #0B004C;
+
+  font-family: 'Manrope-Regular', sans-serif;
   font-size: 24px;
+  line-height: 140%;
 }
 
 .firstScreen {
@@ -63,7 +74,7 @@ h1 {
 
  text-align: center;
 
- color: #FF4E4E;
+ color: #0B004C;
 
  font-family: 'Manrope-Bold', sans-serif;
  font-size: 55px;
@@ -76,8 +87,10 @@ h1 {
 
    text-align: center;
 
+   color: #0B004C;
+
    font-size: 24px;
-   line-height: 130%;
+   line-height: 140%;
 
  }
 
@@ -94,26 +107,36 @@ h1 {
 
   padding: 25px 30px;
 
-text-align: center;
+  text-align: center;
 
-  font-family: 'Manrope-Regular', sans-serif;
+  color: #FF4E4E;
+
+  font-family: 'Manrope-Bold', sans-serif;
   font-size: 18px;
 }
 
 .guideButton {
   display: inline-block;
 
-width: 214px;
-padding: 25px 30px;
+  width: 214px;
+  padding: 25px 30px;
 
-text-align: center;
+  text-align: center;
 
-color: #FF4E4E;
-border-radius: 38px;
-background-color: #FFFFFF;
+  color: #FF4E4E;
+  border-radius: 38px;
+  background-color: #FFFFFF;
 
-  font-family: 'Manrope-Regular', sans-serif;
   font-size: 18px;
+
+}
+
+.guideButton a {
+  text-align: center;
+
+  color: #FF4E4E;
+
+  font-family: 'Manrope-Bold', sans-serif;
 
 }
 
@@ -239,7 +262,7 @@ margin-left: 230px;
   color: #0B004C;
 
   font-family: 'Manrope-Bold', sans-serif;
-  font-size: 36px;
+  font-size: 34px;
 }
 
 .mainCard h5 {
@@ -372,7 +395,7 @@ margin-left: 230px;
   color: #0B004C;
 
   font-family: 'Manrope-Bold', sans-serif;
-  font-size: 36px;
+  font-size: 34px;
 }
 
 .cardPoint h5 {
